@@ -6,6 +6,7 @@ import "./list.css";
 
 function List() {
   const list = useSelector((state) => state.todoReducer.list);
+  console.log(list);
   const dispatch = useDispatch();
 
   return (
